@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="about_me.html">About Me</a></li>
+            <li><a href="contactme.html">Contact Me</a></li>
+            <li><a href="schedule.html">Schedule</a></li>
+        </ul>
+    </nav>
+</header>
+ <!-- Contact Me Section -->
+ <section id="contact-me" class="section">
+    <h2>Contact Me</h2>
+    <form action="mailto:gulsen_sariyeva@mail.ru" method="post" enctype="text/plain">
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="from-email" required><br>
+
+        <label for= "subject">Subject:</label>
+        <input type="text" id="Subject" name="subject" required><br>
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select><br>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea><br>
+
+        <input type="submit" value="Send">
+    </form>
+</section>
+
+
+</html>

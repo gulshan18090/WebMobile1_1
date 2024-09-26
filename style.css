@@ -1,0 +1,84 @@
+body {
+    background-color: #f0f0f0; /* Set the background color */
+    font-family: 'Arial', sans-serif; /* Set the font style */
+    width: 90%; /* Make the body 90% of the browser width */
+    margin: 0 auto; /* Center the body */
+  }
+  
+  hr {
+    width: 50%; /* Make the HR shorter */
+    border: 2px dashed #000; /* Make it thicker and set the style to dashed or dotted */
+    margin: 20px auto; /* Center it horizontally */
+  }
+  .profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Make it circular */
+    transition: transform 0.3s ease; /* Smooth transition for scaling effect */
+  }
+  
+  .profile-pic:hover {
+    width: 220px;
+    height: 220px;
+    transform: scale(1.1); /* Slight growth effect when hovered */
+  }
+  .schedule {
+    width: 100%;
+    border-collapse: collapse; /* Remove space between cells */
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd; /* Set border around table and cells */
+    padding: 8px; /* Add some padding */
+  }
+  
+  th {
+    background-color: #f2f2f2; /* Light background for header cells */
+    text-align: center;
+  }
+  
+  td {
+    text-align: left;
+  }
+  ul, ol {
+    margin: 20px;
+    padding: 10px;
+    list-style-position: inside; /* Moves bullet points inside the list */
+  }
+  
+  li {
+    margin-bottom: 10px;
+    font-size: 16px; /* Adjust the font size */
+    line-height: 1.5;
+  }
+  form {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 600px;
+    margin: 0 auto; /* Center the form */
+  }
+  
+  input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensure padding doesn’t affect width */
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049; /* Change color on hover */
+  }
+  
